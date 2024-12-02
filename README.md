@@ -87,5 +87,5 @@ analyze_video(video_path)
 2. Resumo da Análise:
     - Texto com:
          - Emoções detectadas e suas ocorrências.
-         - Atividades identificadas e suas contagens.
+         - Atividades identificadas e suas ocorrências.
     - Salvo como `video_analysis_summary_1.txt` no mesmo diretório.
