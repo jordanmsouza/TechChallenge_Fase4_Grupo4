@@ -64,5 +64,17 @@ As bibliotecas requeridas são instaladas utilizando pip. Certifique-se de confi
 
 4. `analyze_video(video_path)`
    - Processa o vídeo, executa as análises (rostos, emoções, atividades) e gera um relatório.
+  
+---
 
+## **6. Como Executar** 
+1. Clone o repositório e configure o ambiente Python com as dependências listadas.
+2. Certifique-se de ter o vídeo para análise disponível no caminho especificado.
+3. Execute o script principal:
+```python
+video_path = "/caminho/para/seu/video.mp4"
+analyze_video(video_path)
+```
+4. Os resultados serão salvos na pasta de saída definida no script (output_dir).
 
+---
