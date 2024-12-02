@@ -81,7 +81,7 @@ analyze_video(video_path)
 
 ## **7. Resultados Gerados** 
 1. Vídeo Processado:
-   - Arquivo de vídeo com marcações visuais para rostos, emoções e atividades.
+   - Arquivo de vídeo com marcações visuais para rostos, tendo as emoções representadas por retangulos verde e atividades com retângulos azuis.
    - Salvo no diretório configurado `(output_dir)`.
 
 2. Resumo da Análise:
