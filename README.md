@@ -49,6 +49,8 @@ As bibliotecas requeridas são instaladas utilizando pip. Certifique-se de confi
 !pip install 'git+https://github.com/facebookresearch/detectron2.git'
 !pip install mediapipe
 !pip install tqdm
+```
+---
 
 ## **5. Funções Principais**
 ### 1. `setup_detectron2()`
