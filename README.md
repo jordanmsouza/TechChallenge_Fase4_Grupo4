@@ -10,7 +10,8 @@ Este projeto é parte do Tech Challenge e foi desenvolvido para realizar anális
 ## **2. Funcionalidades**
 1. **Reconhecimento Facial:**
    - Detecção de rostos no vídeo utilizando Haar Cascade.
-   - Desenho de caixas delimitadoras verdes ao redor dos rostos detectados.
+   - Marcações delimitadoras verdes ao redor dos rostos detectados.
+   - Marcações delimitadoras azuis ao redor dos corpos para detecção de atividades.
 
 2. **Análise de Expressões Emocionais:**
    - Utiliza a biblioteca DeepFace para identificar emoções (ex.: felicidade, tristeza, etc.).
@@ -89,3 +90,13 @@ analyze_video(video_path)
          - Emoções detectadas e suas ocorrências.
          - Atividades identificadas e suas ocorrências.
     - Salvo como `video_analysis_summary_1.txt` no mesmo diretório.
+
+---
+
+## **8. Observações**
+1. Desempenho:
+   - As detecções de de atividades não são totalmente acertivas, necessitando de ajustes finos para atividades mais complexas.
+2. Ambiente:
+   - Recomenda-se uso de GPU para maior eficiência, especialmente com DeepFace e Detectron2.
+3. Limitações:
+   - O uso do colab gratuíto pode onerar o processamento dado que o uso da GPU T4 expira a um dado tempo de processamento, recomenda-se    uso de GPU para maior eficiência ou a versão paga do colab.
