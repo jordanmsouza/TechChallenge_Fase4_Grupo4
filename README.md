@@ -53,16 +53,16 @@ As bibliotecas requeridas são instaladas utilizando pip. Certifique-se de confi
 ---
 
 ## **5. Funções Principais**
-### 1. `setup_detectron2()`
-Configura o modelo Detectron2 para detecção de pessoas.
+1. `setup_detectron2()`
+   - Configura o modelo Detectron2 para detecção de pessoas.
 
-### 2. `analyze_face_emotions(frame, boxes, last_emotion)`
-Detecta e suaviza mudanças de emoções em rostos identificados.
+2. `analyze_face_emotions(frame, boxes, last_emotion)`
+   - Detecta e suaviza mudanças de emoções em rostos identificados.
 
-### 3. `detect_activities(frame, pose_results)`
-Identifica atividades humanas baseadas em poses corporais.
+3. `detect_activities(frame, pose_results)`
+   - Identifica atividades humanas baseadas em poses corporais.
 
-### 4. `analyze_video(video_path)`
-Processa o vídeo, executa as análises (rostos, emoções, atividades) e gera um relatório.
+4. `analyze_video(video_path)`
+   - Processa o vídeo, executa as análises (rostos, emoções, atividades) e gera um relatório.
 
 
