@@ -42,8 +42,25 @@ Este projeto é parte do Tech Challenge e foi desenvolvido para realizar anális
 ### **Instalação de Dependências**
 As bibliotecas requeridas são instaladas utilizando pip. Certifique-se de configurar o ambiente antes da execução:
 ```bash
-!pip install opencv-python numpy deepface mediapipe tqdm
+!pip install opencv-python
+!pip install numpy
+!pip install deepface
 !pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 !pip install 'git+https://github.com/facebookresearch/detectron2.git'
+!pip install mediapipe
+!pip install tqdm
+
+## **5. Funções Principais**
+### 1. `setup_detectron2()`
+Configura o modelo Detectron2 para detecção de pessoas.
+
+### 2. `analyze_face_emotions(frame, boxes, last_emotion)`
+Detecta e suaviza mudanças de emoções em rostos identificados.
+
+### 3. `detect_activities(frame, pose_results)`
+Identifica atividades humanas baseadas em poses corporais.
+
+### 4. `analyze_video(video_path)`
+Processa o vídeo, executa as análises (rostos, emoções, atividades) e gera um relatório.
 
 
