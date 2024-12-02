@@ -85,7 +85,7 @@ analyze_video(video_path)
    - Salvo no diretório configurado `(output_dir)`.
 
 2. Resumo da Análise:
- - Texto com:
-      - Emoções detectadas e suas ocorrências.
-      - Atividades identificadas e suas contagens.
- - Salvo como `video_analysis_summary_1.txt` no mesmo diretório.
+    - Texto com:
+         - Emoções detectadas e suas ocorrências.
+         - Atividades identificadas e suas contagens.
+    - Salvo como `video_analysis_summary_1.txt` no mesmo diretório.
