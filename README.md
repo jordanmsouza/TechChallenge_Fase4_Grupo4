@@ -99,4 +99,4 @@ analyze_video(video_path)
 2. Ambiente:
    - Recomenda-se uso de GPU para maior eficiência, especialmente com DeepFace e Detectron2.
 3. Limitações:
-   - O uso do colab gratuíto pode onerar o processamento dado que o uso da GPU T4 expira a um dado tempo de processamento, recomenda-se    uso de GPU para maior eficiência ou a versão paga do colab.
+   - O uso do colab gratuíto pode onerar o processamento dado que o uso da GPU T4 expira a um dado tempo de processamento. Recomenda-se    uso de GPU para maior eficiência ou a versão paga do colab.
