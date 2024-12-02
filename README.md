@@ -81,7 +81,7 @@ analyze_video(video_path)
 
 ## **7. Resultados Gerados** 
 1. Vídeo Processado:
-   - Arquivo de saída contém marcações visuais para rostos e corpos, tendo as emoções representadas por retangulos verdes e atividades com retângulos azuis.
+   - Arquivo de saída contém marcações visuais para rostos e corpos, sendo as emoções representadas por retangulos verdes e atividades com retângulos azuis.
    - Salvo no diretório configurado `(output_dir)`.
 
 2. Resumo da Análise:
