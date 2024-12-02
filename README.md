@@ -98,3 +98,8 @@ analyze_video(video_path)
    - As detecções de de atividades não são totalmente acertivas, necessitando de ajustes finos para de detecções de atividades mais complexas.
 2. Ambiente:
    - O uso do colab gratuíto pode onerar o processamento da análise de video, já que o uso da GPU T4 expira a um dado tempo de processamento. Recomenda-se o uso de GPU para maior eficiência ou a versão paga do colab.
+
+---
+## **9. Links úteis**
+1. Video base para execução do projeto disponível em: `https://drive.google.com/drive/folders/1Y8kUwzdkyosy-1BFiBXPOmSc8Fd-EtWn?usp=sharing`
+2. Video explicativo youtube: `https://youtu.be/JKgpiRG7rJE?si=72Wx7OrgSzmJ3efv`
