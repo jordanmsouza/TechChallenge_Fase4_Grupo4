@@ -101,5 +101,5 @@ analyze_video(video_path)
 
 ---
 ## **9. Links úteis**
-1. Video base para execução do projeto disponível em: `https://drive.google.com/drive/folders/1Y8kUwzdkyosy-1BFiBXPOmSc8Fd-EtWn?usp=sharing`
+1. Base para execução do projeto e arquivos de saída disponível em: `https://drive.google.com/drive/folders/1Y8kUwzdkyosy-1BFiBXPOmSc8Fd-EtWn?usp=sharing`
 2. Video explicativo youtube: `https://youtu.be/JKgpiRG7rJE?si=72Wx7OrgSzmJ3efv`
